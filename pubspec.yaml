@@ -69,6 +69,11 @@ flutter:
   assets:
     - assets/images/tmli.jpeg
     - assets/data.json
+    - assets/files/pr.xlsx
+    - assets/files/jurnal.pdf
+    - assets/files/Task2.docx
+    - assets/files/Hallo.pdf
+    - assets/files/Hallo.docx
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

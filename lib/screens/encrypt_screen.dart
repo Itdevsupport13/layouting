@@ -1,3 +1,4 @@
+import 'package:belajar_layouting/widgets/encrypt_file.dart';
 import 'package:flutter/material.dart';
 import 'package:encrypt/encrypt.dart' as encrypt;
 
@@ -12,6 +13,8 @@ class _EncryptScreenState extends State<EncryptScreen> {
   TextEditingController textEditingController = TextEditingController();
   String encryptedText = '';
   String decryptedText = '';
+  String ecryptedFile = "";
+
   late encrypt.Encrypted encrypted;
 
   // Ensure the key is 32 bytes for AES-256 encryption
@@ -76,6 +79,11 @@ class _EncryptScreenState extends State<EncryptScreen> {
                   child: const Text("Decrypt"),
                 ),
               ],
+            ),
+            const SizedBox(height: 12),
+            const EncryptFile(),
+            const Divider(
+              color: Colors.black,
             ),
           ],
         ),
