@@ -1,7 +1,7 @@
 import 'package:belajar_layouting/model/product_model.dart';
-import 'package:belajar_layouting/screens/detail_information.dart';
+import 'package:belajar_layouting/widgets/detail_information.dart';
 import 'package:belajar_layouting/dialog/dialog_cart.dart';
-import 'package:belajar_layouting/screens/review_product.dart';
+import 'package:belajar_layouting/widgets/review_product.dart';
 import 'package:flutter/material.dart';
 
 class DetailProduct extends StatelessWidget {

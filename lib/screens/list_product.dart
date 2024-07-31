@@ -1,3 +1,4 @@
+import 'package:belajar_layouting/dialog/encrypt_dialog.dart';
 import 'package:belajar_layouting/provider/cart_provider.dart';
 import 'package:belajar_layouting/screens/cart_screen.dart';
 import 'package:belajar_layouting/widgets/product_item.dart';
@@ -56,6 +57,7 @@ class _ListProductState extends State<ListProduct> {
           )
         ],
       ),
+      floatingActionButton: const EncryptDialog(),
       body: FutureBuilder<List<Product>>(
         future: futureProducts,
         builder: (context, data) {
